@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: "https://discord.com",
   },
-  docsRepositoryBase: "https://github.com/animetize/animetize-docs",
+  docsRepositoryBase: "https://github.com/animetize/animetize-docs/blob/main",
   footer: {
     text: "© 2024-2025 Animetize.",
   },
