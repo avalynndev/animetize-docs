@@ -1,6 +1,8 @@
 {
   "index": "Introduction",
   "start": "Get Started",
-  "Anime": { "title": "Anime", "theme": { "collapsed": true } },
-  "Manga": { "title": "Manga", "theme": { "collapsed": true } }
+  "providers": "Current Providers",
+  "soon-providers": "Soon To be Added Providers",
+  "Anime": { "title": "Anime", "theme": { "collapsed": false } },
+  "Manga": { "title": "Manga", "theme": { "collapsed": false } }
 }
