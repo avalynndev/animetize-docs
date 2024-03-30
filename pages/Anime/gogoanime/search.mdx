@@ -11,7 +11,7 @@ Technical details regarding the usage of the search function for the GogoAnime p
 ## Route Schema (URL)
 
 ```
-https://https://animetize-api.vercel.app//anime/gogoanime/{query}?page={number}
+https://animetize-api.vercel.app/anime/gogoanime/{query}?page={number}
 ```
 
 ## Path Parameters
@@ -35,7 +35,7 @@ https://https://animetize-api.vercel.app//anime/gogoanime/{query}?page={number}
         import axios from "axios";
 
         // Using the example query "demon", and looking at the 2nd page of results.
-        const url = "https://https://animetize-api.vercel.app//anime/gogoanime/demon?page=2";
+        const url = "https://animetize-api.vercel.app/anime/gogoanime/demon?page=2";
         const data = async () => {
             try {
                 const { data } = await axios.get(url, { params: { page: 2 } });
@@ -56,7 +56,7 @@ https://https://animetize-api.vercel.app//anime/gogoanime/{query}?page={number}
         import requests
 
         # Using the example query "demon", and looking at the 2nd page of results.
-        url = "https://https://animetize-api.vercel.app//anime/gogoanime/demon"
+        url = "https://animetize-api.vercel.app/anime/gogoanime/demon"
         response = requests.get(url, params={"page": 2})
         data = response.json()
 

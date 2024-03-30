@@ -11,7 +11,7 @@ Technical details regarding the usage of the get available servers function for 
 ## Route Schema (URL)
 
 ```
-https://https://animetize-api.vercel.app//anime/gogoanime/servers/{episodeId}
+https://animetize-api.vercel.app/anime/gogoanime/servers/{episodeId}
 ```
 
 ## Path Parameters
@@ -29,7 +29,7 @@ https://https://animetize-api.vercel.app//anime/gogoanime/servers/{episodeId}
         import axios from "axios";
 
         // Using the example episode ID of 'spy-x-family-episode-1'.
-        const url = "https://https://animetize-api.vercel.app//anime/gogoanime/servers/spy-x-family-episode-1";
+        const url = "https://animetize-api.vercel.app/anime/gogoanime/servers/spy-x-family-episode-1";
         const data = async () => {
             try {
                 const { data } = await axios.get(url);
@@ -50,7 +50,7 @@ https://https://animetize-api.vercel.app//anime/gogoanime/servers/{episodeId}
         import requests
 
         # Using the example episode ID of 'spy-x-family-episode-1'.
-        url = "https://https://animetize-api.vercel.app//anime/gogoanime/servers/spy-x-family-episode-1"
+        url = "https://animetize-api.vercel.app/anime/gogoanime/servers/spy-x-family-episode-1"
         response = requests.get(url)
         data = response.json()
 

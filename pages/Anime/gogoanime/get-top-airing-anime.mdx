@@ -11,7 +11,7 @@ Technical details regarding the usage of the get top airing anime function for t
 ## Route Schema (URL)
 
 ```
-https://https://animetize-api.vercel.app//anime/gogoanime/top-airing
+https://animetize-api.vercel.app/anime/gogoanime/top-airing
 ```
 
 ## Query Parameters
@@ -28,7 +28,7 @@ https://https://animetize-api.vercel.app//anime/gogoanime/top-airing
         ```js
         import axios from "axios";
 
-        const url = "https://https://animetize-api.vercel.app//anime/gogoanime/top-airing";
+        const url = "https://animetize-api.vercel.app/anime/gogoanime/top-airing";
         const data = async () => {
             try {
                 const { data } = await axios.get(url, { params: { page: 1 } });
@@ -48,7 +48,7 @@ https://https://animetize-api.vercel.app//anime/gogoanime/top-airing
         ```python
         import requests
 
-        url = "https://https://animetize-api.vercel.app//anime/gogoanime/top-airing"
+        url = "https://animetize-api.vercel.app/anime/gogoanime/top-airing"
         response = requests.get(url, params={"page": 1})
         data = response.json()
 
