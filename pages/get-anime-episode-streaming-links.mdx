@@ -11,7 +11,7 @@ Technical details regarding the usage of the get anime streaming links function 
 ## Route Schema (URL)
 
 ```
-https://animetize-api.vercel.app/anime/gogoanime/watch/{episodeId}?server={serverName}
+https://animetize-api.vercel.app/watch/{episodeId}?server={serverName}
 ```
 
 ## Path Parameters
@@ -38,7 +38,7 @@ https://animetize-api.vercel.app/anime/gogoanime/watch/{episodeId}?server={serve
         Using the example episode ID of 'spy-x-family-episode-1',
         explicitly defining default server for demostrative purposes.
         */
-        const url = "https://animetize-api.vercel.app/anime/gogoanime/watch/spy-x-family-episode-1";
+        const url = "https://animetize-api.vercel.app/watch/spy-x-family-episode-1";
         const data = async () => {
             try {
                 const { data } = await axios.get(url, { params: { server: "gogocdn" } });
@@ -62,7 +62,7 @@ https://animetize-api.vercel.app/anime/gogoanime/watch/{episodeId}?server={serve
         Using the example episode ID of 'spy-x-family-episode-1',
         explicitly defining default server for demostrative purposes.
         """
-        url = "https://animetize-api.vercel.app/anime/gogoanime/watch/spy-x-family-episode-1"
+        url = "https://animetize-api.vercel.app/watch/spy-x-family-episode-1"
         response = requests.get(url, params={"server": "gogocdn"})
         data = response.json()
 

@@ -11,7 +11,7 @@ Technical details regarding the usage of the get recent anime episodes function 
 ## Route Schema (URL)
 
 ```
-https://animetize-api.vercel.app/anime/gogoanime/recent-episodes
+https://animetize-api.vercel.app/recent-episodes
 ```
 
 ## Query Parameters
@@ -29,7 +29,7 @@ https://animetize-api.vercel.app/anime/gogoanime/recent-episodes
         ```js
         import axios from "axios";
 
-        const url = "https://animetize-api.vercel.app/anime/gogoanime/recent-episodes";
+        const url = "https://animetize-api.vercel.app/recent-episodes";
         const data = async () => {
             try {
                 const { data } = await axios.get(url, { params: { page: 1, type: 1 } });
@@ -49,7 +49,7 @@ https://animetize-api.vercel.app/anime/gogoanime/recent-episodes
         ```python
         import requests
 
-        url = "https://animetize-api.vercel.app/anime/gogoanime/recent-episodes"
+        url = "https://animetize-api.vercel.app/recent-episodes"
         response = requests.get(url, params={"page": 1, "type": 1})
         data = response.json()
 

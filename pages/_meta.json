@@ -1,8 +1,21 @@
 {
   "index": "Introduction",
-  "start": "Get Started",
-  "providers": "Current Providers",
-  "soon-providers": "Soon To be Added Providers",
-  "Anime": { "title": "Anime", "theme": { "collapsed": false } },
-  "Manga": { "title": "Manga", "theme": { "collapsed": false } }
+  "search": "Search",
+  "get-recent-episodes": "Get Recent Episodes",
+  "get-top-airing-anime": "Get Top Airing Anime",
+  "get-anime-info": "Get Anime Info",
+  "get-anime-episode-streaming-links": "Get Anime Episode Streaming Links",
+  "get-anime-episode-available-servers": "Get Anime Episode Available Servers",
+  "license": {
+    "title": "License 📜",
+    "type": "page",
+    "href": "https://raw.githubusercontent.com/animetize/animetize-api/master/LICENSE",
+    "newWindow": true
+  },
+  "contact": {
+    "title": "Contact ✉️",
+    "type": "page",
+    "href": "mailto:avalynndev@gmail.com",
+    "newWindow": true
+  }
 }
